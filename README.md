@@ -23,7 +23,7 @@ The code will read the tsv file output by json2tsv.py and load the trained Rober
 This code will read the json file output by Classifier.py to analyze the classification results of the classifier
 - The code will output a txt file with the number of texts in each category, the number of data related to the disaster, the number of texts not related to the disaster, the total number of texts, and the text content of each category
 ## ./NER
-These files will use the Named Entity Model to identify disaster impact and location information for disaster-related data
+These files will use the NER model to identify disaster impact and location information for disaster-related data
 ### ner.py
 The code will first read the ./Classifier/classifier.py output json file, and then the code will filter the text in the disaster-related categories from the json file. Finally, the code will load the trained Roberta model to identify the disaster impact and location information in these texts
 - The code writes the text to a json file with the recognised entities
