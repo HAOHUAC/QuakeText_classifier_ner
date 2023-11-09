@@ -38,7 +38,7 @@ The code will read the tsv file output by . /Classifier.py/json2tsv.py output ts
 - This code will output a json file that incorporates the full message
 ## ./Classifier_model
 These files are used to train the classifier model
-### bash.py
+### shell.ipynb
 The code will be run in jupyter notebook, the code contains the training parameters with the tasks performed (training, testing, evaluation)
 - The code will call run_glue_multiclass.py
 ### run_glue_multiclass.py
