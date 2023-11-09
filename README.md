@@ -27,7 +27,7 @@ These files will use the NER model to identify disaster impact and location info
 ### ner.py
 The code will first read the json file output by ./Classifier/classifier.py, and then the code will filter the text in the disaster-related categories from the json file. Finally, the code will load the trained Roberta model to identify the disaster impact and location information in these texts
 - The code writes the text to a json file with the recognised entities
-- Since the NER model outputs BIO markup, the code integrates them into full entity text with labels
+- Since the NER model outputs BIO tags, the code integrates them into full labels and full entity text
 - Each entity will contain the entity's position in this text (start and end indexes), the entity text and the entity labels
 ### analyze_location.py
 The code will count the amount of text in the output json file of ner.py that contains the place names.
