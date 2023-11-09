@@ -34,8 +34,8 @@ The code will count the amount of text in the output json file of ner.py that co
 - This code writes the data containing the place names to a json file
 - This code excludes country names when filtering text that contains place names
 ### merge.py
-The code will read the tsv file output by . /Classifier.py/json2tsv.py output tsv file and ner.py output json file, and fuses the information in the tsv file, such as publish time and tweet ID, into the json file by matching the same text.  
-- This code will output a json file that incorporates the full message
+The code will read the tsv file output by ./Classifier.py/json2tsv.py and the json file output by ner.py, and fuses the information in the tsv file, such as publish time and tweet ID, into the json file by matching the same text.  
+- This code will output a json file that incorporates the complete information
 ## ./Classifier_model
 These files are used to train the classifier model
 ### shell.ipynb
