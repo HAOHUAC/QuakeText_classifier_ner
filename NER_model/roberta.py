@@ -10,7 +10,7 @@ from transformers import DataCollatorForTokenClassification
 import torch
 import winsound
 
-# 设置随机种子以减小随机性
+# Set random seed
 seed = 41
 np.random.seed(seed)
 torch.manual_seed(seed)
