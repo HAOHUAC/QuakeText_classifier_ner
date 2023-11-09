@@ -31,7 +31,7 @@ The code will first read the json file output by ./Classifier/classifier.py, and
 - Each entity will contain the entity's position in this text (start and end indexes), the entity text and the entity labels
 ### analyze_location.py
 The code will count the amount of text in the output json file of ner.py that contains the place names.
-- The code writes the text to a json file with the recognised entities
+- This code writes the data containing the place names to a json file
 - The code excludes some geographical names, such as countries, when counting the number of texts that contain them.
 ### merge.py
 The code will read the tsv file output by . /Classifier.py/json2tsv.py output tsv file and ner.py output json file, and fuses the information in the tsv file, such as publish time and tweet ID, into the json file by matching the same text.  
