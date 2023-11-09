@@ -10,7 +10,7 @@ The classifier and the NER model will run in two different environments
 ## ./Classifier
 These files take the acquired social media data and categorise it using classifiers and save the disaster related data into json files.
 ### json2tsv.py
-The code writes a json file in a folder (retrieved_data) as 1 tsv file
+The code writes the json file in a folder (retrieved_data) as 1 tsv file
 - This code writes the contents of all the json files in the folder to a tsv file and removes all textual duplicates.
 - The json file contains the obtained social media data.
 - The tsv file is the format required by the classifier
