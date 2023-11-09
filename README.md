@@ -17,7 +17,7 @@ The code writes a json file in a folder (retrieved_data) as 1 tsv file
 ### Classifier.py
 The code will read the tsv file output by json2tsv.py and load the trained Roberta model to predict the labels of the input data
 - The code will only read the text of the tsv file.
-- The sorting results will be stored in a json file
+- The Classification results will be stored in a json file
 - The output json file contains all the text and its corresponding tags.
 ### analyze.py
 The code will read the Classifier.py output json file to analyse the classification results of the classifier
