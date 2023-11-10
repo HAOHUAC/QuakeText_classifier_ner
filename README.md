@@ -19,8 +19,8 @@ The code will read the tsv file output by json2tsv.py and load the trained Rober
 - The Classification results will be stored in a json file
 - The output json file contains all text and its corresponding category labels.
 ### analyze.py
-This code will read the json file output by Classifier.py to analyze the classification results of the classifier
-- The code will output a txt file with the number of texts in each category, the number of data related to the disaster, the number of texts not related to the disaster, the total number of texts, and the text content of each category
+This code will read the json file output by Classifier.py to analyze the classification results
+- The code will output a txt file with the number of texts in each category, the number of texts related to the disaster, the number of texts not related to the disaster, the total number of texts, and the text content of each category
 ## ./NER
 These files will use the NER model to identify disaster impact and location information for disaster-related data
 ### ner.py
