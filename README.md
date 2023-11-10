@@ -29,7 +29,7 @@ The code will first read the json file output by ./Classifier/classifier.py, and
 - Since the NER model outputs BIO tags, the code integrates them into full labels and full entity text
 - Each entity will contain the entity's position in this text (start and end indexes), the entity text and the entity labels
 ### analyze_location.py
-The code will count the amount of text in the output json file of ner.py that contains the place names.
+This code will count the amount of text containing place names in the json file output by ner.py.
 - This code writes the data containing the place names to a json file
 - This code excludes country names when filtering text that contains place names
 ### merge.py
