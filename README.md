@@ -4,9 +4,9 @@ The model file pytorch_model.bin of the classifier and NER cannot be uploaded du
 
 The classifier and the NER model will run in two different environments 
 
-. /Classifier and . /Classifier_model are used in the following environment：classifier_env.yaml 
+./Classifier and ./Classifier_model will be run in environment classifier_env.yaml
 
-. /NER and . /NER_model are used in the following environment：ner_env.yaml
+./NER and ./NER_model will be run in environment ner_env.yaml
 ## ./Classifier
 These files take the acquired social media data and categorise it using classifiers and save the disaster related data into json files.
 ### json2tsv.py
