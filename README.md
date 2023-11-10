@@ -2,7 +2,7 @@
 ### Haohua Chang
 The model file pytorch_model.bin of the classifier and NER cannot be uploaded due to its large size. To run these models they need to be trained again on a local machine to regenerated this .bin file 
 
-The classifier and the NER model will run in two different environments 
+The classifier and the NER model will run in two different environments:
 
 ./Classifier and ./Classifier_model will be run in environment classifier_env.yaml
 
